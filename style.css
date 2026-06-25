@@ -6,3 +6,10 @@
 body{
   background-color:DarkGray;
 }
+button{
+  size: 30px;
+  font:monospace;
+  color:Black;
+  text-color:Blue;
+  align:center;
+}
