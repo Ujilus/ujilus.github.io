@@ -1,15 +1,15 @@
 *{
   text-align: center;
-  font: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   color:White;
 }
 body{
   background-color:DarkGray;
 }
-button{
-  size: 30px;
+.button{
+  font-size: 100px;
   font:monospace;
-  color:Black;
-  text-color:Blue;
+  background-color:Black;
+  color:Blue;
   align:center;
 }
