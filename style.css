@@ -7,9 +7,9 @@ body{
   background-color:DarkGray;
 }
 button{
-  font-size: 50px;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
+  font-family: "Lucida Console", monospace;
   background-color:Black;
-  color:Blue;
+  color:Green;
   align:center;
 }
