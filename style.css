@@ -7,23 +7,25 @@ body{
 footer{
   text-align:center;
   font-family: Arial,Helvetica,sans-serif;
-  color:rgb(255, 255, 255);
+  color:Black;
 }
 body{
   background-color:rgb(229, 221, 170);
 }
 button{
-  font-size: 25px;
-  font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo", "Consolas", "Liberation Mono", "Monaco", "Lucida Console", monospace ;
-  background-color:Black;
-  color:rgb(0, 255, 0) !important;
+  font-size: 18px;
   align:center;
+  translate:(0px,-10px);
+  text-decoration: none;
 }
 .window{
     text-align: center;
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAABYElEQVR4Ae3cQY6CUBRFQTHuf8tqHD7yY4LHgVjMbNKHpLjS7cTt/jwujkzgmpWEXgJA4yEAjUFvs7c9j/kzr9cC82+Qha6tDp0Beoht/UtA1zaHzuyeobMynxHzGfvp+Xm9X39tofEdBAo0Fohz27tnYHy90+Wmn7d8fIuBAo0F4tzuGRr3/y7nLR/fcqBAY4E4t/ssPz+rx9c7Xc7/oV++pZ6hMTBQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLPQGNT3h8agFgo0FohzFhqDPgCGIiibhbjf9gAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
-    border-width:  28px;
+    border-width:  18px;
     border-style:  solid;
+    font-family: "Fira Mono", "DejaVu Sans Mono", "Menlo", "Consolas", "Liberation Mono", "Monaco", "Lucida Console", monospace ;
+    background-color:Black;
+    color:rgb(0, 255, 0) !important;
 }
 .threed{
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAABrUlEQVR4Ae3cMQ6CQAAFUTHe/8oay9ngks1shWP3g4zhKZQej+vX+/otf/WOY3a1z9nBjq0LBLpuNj0j0CnP+sGz58H4zDx7z/on3eeMqU+/0M1fdKCBbhbYnPs+H6fPhM2fd4fc6IVr6pYHhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHHy+fuH1h+n+h49X3Cx1F5A5UAo6nBzqKyH32H/VLzwz5+Xc4HYb9Qjd/pYEGullgcw73/492z1TCTM265YmlV6CakIFA6aHXB4rMCKS30gNMAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
