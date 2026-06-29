@@ -17,6 +17,7 @@ button{
   align:center;
   translate:(0px,-10px);
   text-decoration: none;
+  box-shadow: 20px 20px 10px grey;
 }
 .window{
     text-align: center;
