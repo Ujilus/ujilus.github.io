@@ -1,7 +1,12 @@
-text{
+body{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color:White;
+}
+footer{
+  text-align:center;
+  font-family: Arial,Helvetica,sans-serif;
+  color:Gray;
 }
 body{
   background-color:DarkGray;
