@@ -1,4 +1,4 @@
-*{
+text{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color:White;
@@ -8,12 +8,13 @@ body{
 }
 button{
   font-size: 25px;
-  font-family: "Lucida Console" !important, monospace !important;
+  font-family: "Lucida Console" , monospace !important ;
   background-color:Black;
-  color:Green;
+  color:Green !important;
   align:center;
 }
 .window {
+    text-align: center;
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAABYElEQVR4Ae3cQY6CUBRFQTHuf8tqHD7yY4LHgVjMbNKHpLjS7cTt/jwujkzgmpWEXgJA4yEAjUFvs7c9j/kzr9cC82+Qha6tDp0Beoht/UtA1zaHzuyeobMynxHzGfvp+Xm9X39tofEdBAo0Fohz27tnYHy90+Wmn7d8fIuBAo0F4tzuGRr3/y7nLR/fcqBAY4E4t/ssPz+rx9c7Xc7/oV++pZ6hMTBQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLNQoLFAnLPQGNT3h8agFgo0FohzFhqDPgCGIiibhbjf9gAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
     border-width:  28px;
     border-style:  solid;
