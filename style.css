@@ -26,9 +26,11 @@ button:hover{
 }
 a{
   color:white;
+  font:monospace;
 }
 a:visited {
   color: green;
+  font:"Consolas";
 }
 .window{
     text-align: center;
