@@ -24,6 +24,9 @@ button:hover{
   box-shadow: 20px,20px 20px grey;
   transition-duration: 500ms;
 }
+a{
+  color:white;
+}
 a:visited {
   color: green;
 }
