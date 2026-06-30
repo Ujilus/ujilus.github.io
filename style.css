@@ -20,7 +20,8 @@ button{
   box-shadow: 10px 10px 10px grey;
 }
 button:hover{
-  transition-property:box-shadow: 20px,20px 20px grey;
+  transition-property:all;
+  box-shadow: 20px,20px 20px grey;
   transition-duration: 500ms;
 }
 .window{
