@@ -21,8 +21,8 @@ button{
 }
 button:hover{
   transition-property:all;
-  box-shadow: 20px,20px 20px grey;
-  transition-duration: 500ms;
+  box-shadow: 20px,20px 10px Black;
+  transition-duration: 1000ms;
 }
 a{
   color:white;
