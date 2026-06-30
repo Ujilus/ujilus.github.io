@@ -10,7 +10,7 @@ footer{
   color:Black;
 }
 body{
-  background-color:rgb(229, 221, 170);
+  background-color:rgb(255, 215, 187);
 }
 button{
   font-size: 18px;
@@ -20,8 +20,8 @@ button{
   box-shadow: 10px 10px 10px grey;
 }
 button:hover{
-  transition-property:all;
-  box-shadow: 20px,20px 10px Black;
+  transition-property: all;
+  transform: 10 px 10px;
   transition-duration: 1000ms;
 }
 a{
@@ -31,6 +31,7 @@ a{
 a:visited {
   color: green;
   font:"Consolas";
+  translate: 0px -5px;
 }
 .window{
     text-align: center;
@@ -48,3 +49,11 @@ a:visited {
     border-width:  28px;
     border-style:  solid;
   }
+div{
+  width:fit-content;
+  margin:auto;
+}
+.threed:hover{
+  transform:translate(0px, 1px);
+  transition-duration: 500ms;
+}
