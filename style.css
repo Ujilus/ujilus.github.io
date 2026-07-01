@@ -12,7 +12,7 @@ footer{
   margin:auto;
 }
 body{
-  background-color:rgb(251, 224, 205);
+  background-color:rgb(255, 244, 187);
 }
 button{
   font-size: 18px;
@@ -36,7 +36,7 @@ a:visited {
   translate: 0px -5px;
 }
 a:hover{
-  color: pink !important;;
+  color: rgb(255, 136, 0) !important;;
 }
 .window{
     text-align: center;
