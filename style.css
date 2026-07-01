@@ -19,21 +19,19 @@ button{
   text-align: center;
   translate:(0px,-10px);
   text-decoration: none;
-  box-shadow: 10px 10px 10px grey;
 }
 button:hover{
-  transition-property: all;
-  transform: 10 px 10px;
+  transform: translate(10 px, 10px);
   transition-duration: 1000ms;
 }
 a{
   color:white;
   font:monospace;
+
+  translate:4px;
 }
 a:visited {
   color: green;
-  font:"Consolas";
-  translate: 0px -5px;
 }
 a:hover{
   color: rgb(255, 136, 0) !important;;
@@ -49,13 +47,18 @@ a:hover{
     text-decoration:none;
     size:16;
 }
+.window:hover{
+  transform:translate(0px,-5px);
+  transition-duration: 100ms;
+  transform:box-shadow( 10px 10px 10px grey);
+}
 .threed{
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAABrUlEQVR4Ae3cMQ6CQAAFUTHe/8oay9ngks1shWP3g4zhKZQej+vX+/otf/WOY3a1z9nBjq0LBLpuNj0j0CnP+sGz58H4zDx7z/on3eeMqU+/0M1fdKCBbhbYnPs+H6fPhM2fd4fc6IVr6pYHhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHH4F6QxQCBYcfgXpDFAIFhx+BekMUAgWHHy+fuH1h+n+h49X3Cx1F5A5UAo6nBzqKyH32H/VLzwz5+Xc4HYb9Qjd/pYEGullgcw73/492z1TCTM265YmlV6CakIFA6aHXB4rMCKS30gNMAAAAAElFTkSuQmCC") 28 /  28px / 0 round;
     border-width:  28px;
     border-style:  solid;
   }
 div{
-  width:fit-content;
+  width:max-content;
   margin:auto;
 }
 .threed:hover{
