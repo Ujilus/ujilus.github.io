@@ -12,11 +12,11 @@ footer{
   margin:auto;
 }
 body{
-  background-color:rgb(255, 215, 187);
+  background-color:rgb(251, 224, 205);
 }
 button{
   font-size: 18px;
-  align:center;
+  text-align: center;
   translate:(0px,-10px);
   text-decoration: none;
   box-shadow: 10px 10px 10px grey;
@@ -34,6 +34,9 @@ a:visited {
   color: green;
   font:"Consolas";
   translate: 0px -5px;
+}
+a:hover{
+  color: pink !important;;
 }
 .window{
     text-align: center;
