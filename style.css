@@ -66,3 +66,7 @@ div{
   transform:translate(0px, 1px);
   transition-duration: 500ms;
 }
+
+.inset{
+  box-shadow: 9px 9px 27px 5px #000000 inset, -9px -9px 27px 5px #000000 inset;
+}
