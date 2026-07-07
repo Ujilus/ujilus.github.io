@@ -24,11 +24,18 @@ button:hover{
   transform: translate(10 px, 10px);
   transition-duration: 1000ms;
 }
+h1{
+  font-style:bold;
+  text-decoration: underline teal;
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
 a{
   color:white;
   font:monospace;
 
-  translate:4px;
+  transform:8px;
 }
 a:visited {
   color: green;
@@ -67,13 +74,20 @@ div{
   transition-duration: 500ms;
 }
 
-.inset{
-  box-shadow: 9px 9px 27px 5px #000000 inset, -9px -9px 27px 5px #000000 inset;
+div.inset{
+  box-shadow: 9px 9px 27px 5px #6a6a6a inset;
   border-radius: 50px;
-  padding: 10px;
-}
-.inset:hover{
-  transition: scale(1.2);
+  border:solid 1px;
+  padding: 30px;
+  color:rgb(0, 0, 0);
+  margin-top: 10px;
   transition-duration: 500ms;
-  transition:color(blue);
+}
+div.inset:hover{
+  transform: scale(1.01);
+  transition-duration: 500ms;
+  transform:color(rgb(255, 0, 0));
+  animation-name:Insets;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
