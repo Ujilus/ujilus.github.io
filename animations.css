@@ -1,6 +1,13 @@
-@keyframes Insets{
-    0%{color:red}
-    25%{color:orange}
-    50%{color:yellow}
-    100%{color:greenyellow}
+@keyframes Rainbow{
+     0%{color:red}
+    10%{color:orange}
+    20%{color:yellow}
+    30%{color:greenyellow}
+    40%{color:green}
+    50%{color:turquoise}
+    60%{color:aqua}
+    70%{color:blue}
+    80%{color:blueviolet}
+    90%{color:magenta}
+    100%{color:red}
 }
