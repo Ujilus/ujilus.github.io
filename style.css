@@ -87,3 +87,10 @@ div.inset:hover{
   transform: scale(1.05);
   transition-duration: 500ms;
 }
+.bubble{
+  border-radius: 500rem;
+  padding: 30px;
+  border-width: 4px;
+  border-color: black;
+  border-style:solid;
+}
