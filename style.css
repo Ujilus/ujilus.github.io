@@ -2,9 +2,9 @@ body{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight:bold;
-  color:rgb(0, 0, 0);
+  color:rgb(200, 204, 204);
   size: 18px;
-  background-color:#e3fbff;
+  background-color:#3f4041;
 }
 footer{
   text-align:center;

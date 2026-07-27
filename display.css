@@ -1,0 +1,43 @@
+
+.display {
+    width: 410px;
+    height: 280px;
+    background: lightgrey;
+    font-family: monospace;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: green;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      black,
+      rgb(59, 59, 59),
+      black
+    );
+    text-align: center;
+    overflow-x: clip;
+
+    background-size: 2px 2px;
+    animation: move 1s linear infinite;
+    text-shadow:
+      0 0 50px,
+      0 0 10px,
+      0 0 20px;
+    border-radius: 15px;
+    border: solid 5px grey;
+    box-shadow:
+      15px 15px 25px inset rgb(88, 88, 88),
+      -15px -15px 15px inset rgb(63, 62, 62),
+      5px 5px 5px 3px black;
+    outline: solid 2px black;
+}
+
+@keyframes move {
+    from {
+      background-position-y: 0%;
+    }
+    to {
+      background-position-y: 100%;
+    }
+}
