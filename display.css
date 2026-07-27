@@ -31,6 +31,7 @@
       -15px -15px 15px inset rgb(63, 62, 62),
       5px 5px 5px 3px black;
     outline: solid 2px black;
+    padding:20px;
 }
 
 @keyframes move {
